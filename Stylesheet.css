@@ -1,0 +1,183 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+    top: 1000;
+}
+body{
+    background-color: #ffffff;
+    color: #286FB4;
+}
+.icon{
+    background-color: #E2F0F9;
+    border: none;
+    color: #286FB4;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E2F0F9 ;
+    width: 100%;
+    letter-spacing: 2.5px;
+    z-index: 1;
+    position: fixed;
+    transition: 0.5s;
+    overflow-x: hidden;
+    top: 5;
+}   
+.menu a{
+    background-color: #E2F0F9;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    color: #286FB4;
+    line-height:50px;
+}
+.main{
+    padding:55px 12px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    display: flex;
+    flex: 1 auto;
+    align-items: center;
+    line-height:3.4rem;
+}
+.main h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.main h4{
+    font-size: 25px;
+}
+.main h5{
+    font-size: 20px;
+}
+.edu{
+    position: relative;
+    width: 100%;
+    color: #EBE8E7;
+    background: url(./Images/edu3.jpg);
+    background-size: cover;
+    min-height: 90vh;
+    font-size: 30px;
+    background-attachment: fixed;
+    margin-top: 10px;
+}
+.font {
+    font-size: 35px;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+}
+.font1{
+    position: absolute;
+    top: 43%;
+    left: 4%;
+}
+.font2{
+    position: absolute;
+    top: 63%;
+    left: 4%;
+}
+.font4{
+    text-align: center;
+    font-size: 30px;
+}
+.font5{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+.fontnew{
+    color: #EBE8E7;
+   text-align: center;
+}
+.design{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ProgressBar{
+    width: 100%;
+    border: solid 1px #286FB4;
+    height: 21px;
+    position: relative;
+}
+.myBar{
+    background-color: #286FB4;
+    position: absolute;
+    height: 20px;
+}
+.myBar img{
+    width: 10px;
+    height: 10px;
+}
+.bar1{
+    width: 60%;
+}
+.bar2{
+    width: 90%;
+}
+.bar3{
+    width: 60%;
+}
+.bar4{
+    width: 30%;
+}
+.bar5{
+    width: 15%;
+}
+.bar6{
+    width: 10%;
+}
+
+#CERTIFICATIONS{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    z-index: 1;
+    padding: 5px ;
+    background-color: #286eb4a1;
+    line-height: 4rem;
+    color: #EBE8E7;
+}
+.profile{
+    border-radius: 100px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.content{
+    text-align: justify;
+    padding:0 15px;
+    font-size:15px;
+}
+
+.skill{
+    margin-top: 10px;
+}
+.cont{
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+}
+.col{
+    color: #286eb4a1;
+}
+.about{
+    background-color: #286eb4a1 ;
+    color: #EBE8E7;
+    padding:10px 20px;
+    z-index: 1;
+    margin: 10px;
+}
